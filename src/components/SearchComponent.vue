@@ -6,13 +6,13 @@
       </template>
       <template v-slot:trigger="{ clickHandler }">
         <button class="filter" @click="() => handleTrigger(clickHandler)">
-          <img src="filter.svg" alt="filter" />
+          <img src="/filter.svg" alt="filter" />
         </button>
       </template>
     </SideSheetComponent>
     <input type="search" placeholder="Location" v-model="inputValue" />
     <button type="submit">
-      <img src="search.svg" alt="search" />
+      <img src="/search.svg" alt="search" />
     </button>
   </form>
 </template>

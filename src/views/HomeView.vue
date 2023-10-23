@@ -19,7 +19,7 @@
       </li>
     </ul>
     <div class="noItems" v-if="!Boolean(filteredItems.length)">
-      <img src="no-results.png" alt="No Results" />
+      <img src="/no-results.png" alt="No Results" />
       <h1>Sorry, no result found {{ ':(' }}</h1>
       <p>
         Sorry, but we couldn't find any items that match your current filters. Please consider
